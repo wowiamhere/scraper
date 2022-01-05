@@ -1,0 +1,23 @@
+{
+  "name": "data_scraper",
+  "version": "1.0.1",
+  "description": "data scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dont got one"
+  },
+  "keywords": [
+    "data",
+    "scraper"
+  ],
+  "author": "dude duderett",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "puppeteer": "^13.0.1"
+  }
+}
