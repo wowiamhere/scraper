@@ -1,4 +1,5 @@
 // for puppeteer
+
 const pup = require('puppeteer')
 
 async function getData(req, res, next){
@@ -17,8 +18,6 @@ async function getData(req, res, next){
 				post_id.match( /(?<=posts\/)\d+/ )
 				)
 			)
-
-console.log("------->" + res.info)	
 
 	await browser.close()
 	next()
